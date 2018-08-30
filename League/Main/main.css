@@ -1,0 +1,746 @@
+/*
+Site Colors
+
+Main Colors
+#061B47
+#103A92
+#3561BF
+#688CDA
+#BED0F7
+
+Accent color
+#6B4600
+#DB9101
+#FFB932
+#FFCD6B
+#FFE9BD
+
+#0F2F74 - Main Blue
+#03163F - Dark Blue
+#08235C - Med BLue
+#1B3F8D - Light/Dark Blue
+#36579D - Light Blue
+
+#AD0606 - Main Red
+#600000 - Darkest Red
+#8B0000 - Next Darkest Red
+#D41717 - Light/Dark Red
+#E84545 - Light Red
+
+*/
+/*========================================================================================*/
+/*                                         Body Styles                                    */
+/*========================================================================================*/
+
+*{
+    margin: 0;
+}
+
+html,body{
+	height: 100%;
+    background: #FFF;
+    font-family: "Anaheim", sans-serif;
+	} /* all pages */
+
+button {
+    border: none; 
+}
+
+#wrapper {
+    height: auto;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 970px;
+}
+
+div {
+    margin: 0;
+}
+
+select {
+    width: 100%;
+}
+
+/*========================================================================================*/
+/*                                       ~~Body Styles~~                                  */
+/*========================================================================================*/
+
+
+/*========================================================================================*/
+/*                                         Hero Styles                                    */
+/*========================================================================================*/
+
+#hero {
+    background-color: #fff;
+    height: auto;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#hero h1 {
+    box-shadow: none;
+    font-family: "Anaheim", sans-serif;
+    font-size: 120px;
+    margin: auto;
+    padding: auto;
+}
+
+#hero span {
+    color: #FFB932;
+}
+
+/*========================================================================================*/
+/*                                       ~~Hero Styles~~                                  */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                        Slider Styles                                   */
+/*========================================================================================*/
+
+.mySlides {
+    display: none;
+    -webkit-animation-name: mySlides;
+    -webkit-animation-duration: 1.5s;
+    animation-name: mySlides;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes mySlides {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes mySlides {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*========================================================================================*/
+/*                                      ~~Slider Styles~~                                 */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                     Current Record Styles                              */
+/*========================================================================================*/
+
+#winList {
+    background-color: #FFF;
+    border-bottom: solid 1px #eee;
+    color: #333;
+    height: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#winList h1 {
+    background-color: #FFB932;
+    font-family: "Anaheim", sans-serif;
+    font-size: 96px;
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+
+#winList {
+    font-family: "Anaheim", sans-serif;
+    font-size: 96px;
+}
+
+/*========================================================================================*/
+/*                                   ~~Current Record Styles~~                            */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                     Overall Record Styles                              */
+/*========================================================================================*/
+
+.info {
+    background-color: #FFF;
+    border-bottom: solid 1px #eee;
+    color: #333;
+    height: auto;
+    overflow: auto;
+    position: relative;
+    width: auto;
+    text-align: center;
+}
+
+.info>h2,
+.info>h3,
+.info>h4 {
+    font-family: "Anaheim", sans-serif;
+    font-size: 48px;
+    margin: 15px;
+    text-align: right;
+}
+
+.info>h3 {
+    text-align: center;
+}
+
+.info>ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.info>ul>li {
+    border-radius: 3px;
+    display: inline-block;
+    font-family: "Anaheim", sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    width: 150px;
+}
+
+/*========================================================================================*/
+/*                                   ~~Overall Record Styles~~                            */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                     Quick Reference Styles                             */
+/*========================================================================================*/
+
+#quick {
+    background-color: #FFF;
+    border-bottom: solid 1px #eee;
+    color: #333;
+    height: auto;
+    padding: 20px 0 0;
+    width: auto;
+    min-width: 230px;
+}
+
+#quick h1 {
+    font-family: "Anaheim", sans-serif;
+    font-size: 96px;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+#quick p {
+    font-family: "Anaheim", sans-serif;
+    font-size: 48px;
+    margin: 0;
+    padding: 0 40px 40px;
+    text-align: center;
+}
+
+#quick a {
+    background-color: #103A92;
+    border-radius: 5px;
+    color: #eee;
+    font-family: "Anaheim", sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+#quick a:hover {
+    background-color: #688CDA;
+    border-radius: 5px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+/*========================================================================================*/
+/*                                   ~~Quick Reference Styles~~                           */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                     Current Schedule Styles                            */
+/*========================================================================================*/
+
+.schTable {
+    font-family: 'Anaheim', sans-serif;
+    margin-bottom: 8px;
+    overflow-x: scroll;
+}
+
+.schTable>h2 {
+    background-color: #FFB932;
+    font-size: 56px;
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.schTable>table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 1300px;
+}
+
+.schTable>table tr {
+    border-bottom: solid 1px #333;
+}
+
+.schTable>table th {
+    font-size: 28px;
+}
+
+.schTable>table>tbody>tr>td {
+    font-family: 'Anaheim', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.schTable>table>tbody>tr:nth-of-type(even) {
+    background-color: rgb(242, 242, 242);
+}
+
+.frmSchSelect {
+    font-family: 'Anaheim', sans-serif;
+}
+
+.frmSchSelect>h2 {
+    background-color: #688CDA;
+    font-size: 48px;
+    margin: 12px 0;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.frmSchSelect>form {
+    box-shadow: 18px 18px 36px 0px rgba(0, 0, 0, 0.5);
+    margin: 25px auto;
+    padding: 20px;
+    width: 800px;
+}
+
+.frmSchSelect>form>label {
+    display: inline-block;
+    font-size: 20px;
+    width: 90px;
+}
+
+.frmSchSelect>form>input {
+    border: solid 1px rgb(202, 202, 202);
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 20px;
+    outline: none;
+    padding: 3px 0;
+    width: 150px;
+}
+
+.frmSchSelect>form>button {
+    background-color: #FFB932;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 6px 18px;
+}
+
+.schTable>table>tbody>tr>#away-1:hover,
+.schTable>table>tbody>tr>#away-2:hover,
+.schTable>table>tbody>tr>#away-3:hover,
+.schTable>table>tbody>tr>#away-4:hover,
+.schTable>table>tbody>tr>#away-5:hover,
+.schTable>table>tbody>tr>#away-6:hover,
+.schTable>table>tbody>tr>#away-7:hover,
+.schTable>table>tbody>tr>#away-8:hover,
+.schTable>table>tbody>tr>#away-9:hover,
+.schTable>table>tbody>tr>#away-10:hover,
+.schTable>table>tbody>tr>#away-11:hover,
+.schTable>table>tbody>tr>#away-12:hover,
+.schTable>table>tbody>tr>#away-13:hover,
+.schTable>table>tbody>tr>#away-14:hover,
+.schTable>table>tbody>tr>#away-15:hover,
+.schTable>table>tbody>tr>#away-16:hover {
+    background-color: #BED0F7;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.schTable>table>tbody>tr>#home-1:hover,
+.schTable>table>tbody>tr>#home-2:hover,
+.schTable>table>tbody>tr>#home-3:hover,
+.schTable>table>tbody>tr>#home-4:hover,
+.schTable>table>tbody>tr>#home-5:hover,
+.schTable>table>tbody>tr>#home-6:hover,
+.schTable>table>tbody>tr>#home-7:hover,
+.schTable>table>tbody>tr>#home-8:hover,
+.schTable>table>tbody>tr>#home-9:hover,
+.schTable>table>tbody>tr>#home-10:hover,
+.schTable>table>tbody>tr>#home-11:hover,
+.schTable>table>tbody>tr>#home-12:hover,
+.schTable>table>tbody>tr>#home-13:hover,
+.schTable>table>tbody>tr>#home-14:hover,
+.schTable>table>tbody>tr>#home-15:hover,
+.schTable>table>tbody>tr>#home-16:hover {
+    background-color: #FFE9BD;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.schTable>table>tbody>tr>.ScoreHome {
+    text-align: center;
+}
+
+/*========================================================================================*/
+/*                                   ~~Current Schedule Styles~~                          */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                       Player Styles                                    */
+/*========================================================================================*/
+
+.table-data {
+    width: 100%;
+}
+
+.table-data>table {
+    border-collapse: collapse;
+    font-family: 'Anaheim', sans-serif;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.table-data>table tr {
+    border-bottom: solid 1px #333;
+}
+
+.table-data>table tr:nth-of-type(even) {
+    background-color: rgb(252, 252, 252);
+}
+
+.table-data>table>thead>tr>th {
+    background-color: #FFCD6B;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+.table-data>table>tbody>tr>th {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.table-data>table tr>td {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*========================================================================================*/
+/*                                     ~~Player Styles~~                                  */
+/*========================================================================================*/
+
+
+
+/*========================================================================================*/
+/*                                    Navigation Styles                                   */
+/*========================================================================================*/
+
+.usrBar {
+    background-color: #eee;
+    font-family: "Anaheim", sans-serif;
+    height: 48px;
+    position: relative;
+}
+
+.usrBar ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+}
+
+.usrBar ul li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.usrBar ul li img {
+    display: inline-block;
+    margin: 8px;
+    padding: 0px;
+}
+
+.usrBar ul li #profile {
+    text-align: right;
+    width: 175px;
+}
+
+.usrBar .drop-content {
+    background-color: #BED0F7;
+    height: 0px;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+        top: 0;
+    text-align: center;
+    transition: height 0.7s;
+    -webkit-transition: height 0.7s;
+    visibility: visible;
+    width: auto;
+    z-index: 1;
+}
+
+.usrBar .drop-content ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.usrBar .drop-content ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.usrBar .drop-content ul li a {
+    color: #333;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    padding: 10px 47px;
+    text-decoration: none;
+}
+
+.usrBar .drop-content ul li a:hover {
+    background-color: #FFCD6B;
+}
+
+#leagueNav {
+    background-color: #3561BF;
+    width: 100%;
+} /* header.php */
+
+#leagueNav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#leagueNav li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+#leagueNav ul li a {
+    color: #000;
+    display: inline-block;
+    font-family: "Anaheim", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+
+#leagueNav a:hover {
+    background-color: #FFB932;
+    color: #333;
+}
+
+#leagueNav a:active {
+    background-color: #000;
+    color: #eee;
+}
+
+#leagueNav span {
+    color: #FFF;
+    font-size: 22px;
+}
+
+/*========================================================================================*/
+/*                                  ~~Navigation Styles~~                                 */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                      Contact Styles                                    */
+/*========================================================================================*/
+
+.contact {
+    background-color: #BED0F7;
+    border-radius: 3px;
+    margin: 40px 0 20px;
+}
+
+.contact>h3 {
+    text-align: center;
+}
+
+/*========================================================================================*/
+/*                                    ~~Contact Styles~~                                  */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                      Profile Styles                                    */
+/*========================================================================================*/
+
+.profDetail {
+    font-family: 'Anaheim', sans-serif;
+    margin: auto;
+    width: 600px;
+}
+
+.profDetail>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profDetail>p {
+    text-align: center;
+}
+
+.profileWk {
+    margin-top: 0px;
+    padding: 10px;
+    width: auto;
+}
+
+.profileWk h2 {
+    border-bottom: solid 3px #FFCD6B;
+    font-size: 36px;
+    margin-bottom: 18px;
+    padding: 8px;
+}
+
+.profileWk ul {
+    list-style: none;
+    margin-bottom: 18px;
+}
+
+.profileWk ul li {
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 8px 5px 0;
+    padding: 8px;
+}
+
+.contain{
+    background-color: #FFF;
+    border-bottom: solid 1.5px #eee;
+    color: #333;
+    position: relative;
+    width: 100%;
+} /* landing.php */
+    
+.contain>form {
+    padding: 20px 10px;
+    width: 250px;
+}
+
+.contain>form>label {
+    font-weight: 300;
+}
+
+.contain>form>button {
+    background-color: #FFB932;
+    border: none;
+    border-radius: 3px;
+    margin: 6px 0;
+    padding: 6px 18px;
+}
+
+.lose {
+    color: rgb(173, 4, 0);
+    margin: 0 3px 3px 0;
+    text-align: left;
+}
+
+.win {
+    color: rgb(11, 92, 7);
+    margin: 0 3px 3px 0;
+    text-align: left;
+}
+
+.stat {
+    font-size: 60px;
+}
+
+
+/*========================================================================================*/
+/*                                    ~~Profile Styles~~                                  */
+/*========================================================================================*/
+
+
+/*========================================================================================*/
+/*                                       Footer Styles                                    */
+/*========================================================================================*/
+
+#footer {
+	background-color: #FFF;
+    clear: both;
+    padding: 40px 0px 30px;
+	text-align: center;
+	width: auto;
+	} /* footer.php */
+
+#footer a {
+	text-decoration: none;
+	color: #eee;
+	} /* footer.php */
+
+#footNav {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#footNav ul li {
+    list-style: none;
+    display: block;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#footNav a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*========================================================================================*/
+/*                                     ~~Footer Styles~~                                  */
+/*========================================================================================*/

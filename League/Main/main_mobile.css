@@ -1,0 +1,456 @@
+/*
+Site Colors
+
+Main Colors
+#061B47
+#103A92
+#3561BF
+#688CDA
+#BED0F7
+
+Accent color
+#6B4600
+#DB9101
+#FFB932
+#FFCD6B
+#FFE9BD
+*/
+
+@media only screen and (max-width: 800px) {
+    
+/*========================================================================================*/
+/*                                         Body Styles                                    */
+/*========================================================================================*/
+    
+    #wrapper {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+    }
+
+/*========================================================================================*/
+/*                                       ~~Body Styles~~                                  */
+/*========================================================================================*/
+    
+/*========================================================================================*/
+/*                                    Navigation Styles                                   */
+/*========================================================================================*/
+    
+    .usrBar {
+        width: 100%;
+    }
+    
+    .usrBar>ul {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .usrBar>ul>li {
+        cursor: pointer;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .usrBar ul li img {
+        display: inline-block;
+        margin: 8px;
+        padding: 0px;
+    }
+    
+    .usrBar ul li #profile {
+        text-align: right;
+        width: 175px;
+    }
+    
+    .usrBar .drop-content {
+        background-color: #BED0F7;
+        height: 0px;
+        margin: 0;
+        overflow: auto;
+        padding: 0;
+        position: relative;
+            top: 0;
+        text-align: center;
+        transition: height 0.7s;
+        -webkit-transition: height 0.7s;
+        visibility: visible;
+        width: auto;
+        z-index: 1;
+    }
+    
+    .usrBar .drop-content>ul {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .usrBar .drop-content>ul>li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .usrBar .drop-content>ul>li>a {
+        color: #333;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        padding: 10px 47px;
+        text-decoration: none;
+    }
+    
+    .usrBar .drop-content ul li a:hover {
+        background-color: #FFCD6B;
+    }
+    
+    #leagueNav {
+        width: 100%;
+    } /* header.php */
+    
+    #leagueNav ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #leagueNav li {
+        display: inline-block;
+        margin: 0px;
+        padding: 0px 0px;
+    }
+    
+    #leagueNav a {
+        color: #000;
+        display: inline-block;
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0px;
+        padding: 10px 15px;
+        text-decoration: none;
+        
+    }
+    
+    #leagueNav span {
+        color: #FFF;
+        font-size: 22px;
+    } /* header.php */
+    
+/*========================================================================================*/
+/*                                  ~~Navigation Styles~~                                 */
+/*========================================================================================*/
+    
+/*========================================================================================*/
+/*                                         Hero Styles                                    */
+/*========================================================================================*/
+
+    #hero {
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #hero>h1 {
+        font-size: 60px;
+    }
+
+/*========================================================================================*/
+/*                                       ~~Hero Styles~~                                  */
+/*========================================================================================*/
+    
+/*========================================================================================*/
+/*                                     Current Record Styles                              */
+/*========================================================================================*/
+
+    #winList {
+        background-color: #FFF;
+        border-bottom: solid 1px #eee;
+        color: #333;
+        height: auto;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #winList>h1 {
+        background-color: #FFB932;
+        font-family: "Anaheim", sans-serif;
+        font-size: 60px;
+        padding: 5px 0 5px 0;
+        width: 100%;
+    }
+        
+    #winList>p {
+        font-size: 48px;            
+    }
+
+/*========================================================================================*/
+/*                                   ~~Current Record Styles~~                            */
+/*========================================================================================*/
+    
+/*========================================================================================*/
+/*                                     Overall Record Styles                              */
+/*========================================================================================*/
+
+    .info {
+        background-color: #FFF;
+        border-bottom: solid 1px #eee;
+        color: #333;
+        height: auto;
+        overflow: auto;
+        position: relative;
+        width: auto;
+        text-align: center;
+    }
+    
+    .info>h2,
+    .info>h3,
+    .info>h4 {
+        font-family: "Anaheim", sans-serif;
+        font-size: 36px;
+        margin: 15px;
+        text-align: center;
+    }
+    
+    .info>h3 {
+        text-align: center;
+    }
+    
+    .info>ul {
+        list-style: none;
+        display: inline-block;
+        padding-top: 20px;
+        text-align: left;
+    }
+    
+    .info>ul>li {
+        border-radius: 3px;
+        display: inline-block;
+        font-family: "Anaheim", sans-serif;
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+        text-align: left;
+        width: 150px;
+    }
+    
+    .info>ul>#wideMsg {
+        margin: auto;
+        width: 250px;
+    }
+
+/*========================================================================================*/
+/*                                   ~~Overall Record Styles~~                            */
+/*========================================================================================*/
+    
+/*========================================================================================*/
+/*                                     Quick Reference Styles                             */
+/*========================================================================================*/
+    
+    #quick h1 {
+        font-size: 60px;
+        padding: 0 0 15px;
+    }
+    
+    #quick p {
+        font-size: 24px;
+        padding: 0 10px 20px;
+    }
+    
+    #quick a {
+        padding: 20px;
+    }
+
+/*========================================================================================*/
+/*                                   ~~Quick Reference Styles~~                           */
+/*========================================================================================*/
+    
+/*========================================================================================*/
+/*                                     Current Schedule Styles                            */
+/*========================================================================================*/
+
+    .schTable {
+        font-family: 'Anaheim', sans-serif;
+        margin-bottom: 8px;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    
+    .schTable>h2 {
+        font-size: 48px;
+    }
+    
+    .schTable table th {
+        font-size: 20px;
+    }
+    
+    .schTable>table>tbody>tr>td {
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    
+    .frmSchSelect>h2 {
+        font-size: 48px;
+    }
+    
+    .frmSchSelect>form {
+        width: 600px;
+    }
+        
+    .schTable>table {
+        width: 600px;
+    }
+    
+    .schTable .WeekNum,
+    .schTable .GameNum,
+    .schTable .ScoreAway,
+    .schTable .ScoreHome,
+    .schTable .GameYear {
+        display: none;
+    }
+
+/*========================================================================================*/
+/*                                   ~~Current Schedule Styles~~                          */
+/*========================================================================================*/
+
+/*========================================================================================*/
+/*                                      Player Styles                                     */
+/*========================================================================================*/
+    
+    .table-data {
+        width: 100%;
+    }
+    
+    .table-data>table {
+        border-collapse: collapse;
+        font-family: 'Anaheim', sans-serif;
+        margin: 20px auto;
+        width: 600px;
+    }
+    
+    .table-data>table tr {
+        border-bottom: solid 1px #333;
+    }
+    
+    .table-data>table tr:nth-of-type(even) {
+        background-color: rgb(252, 252, 252);
+    }
+    
+    .table-data>table thead>tr>th {
+        background-color: #FFCD6B;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+        width: 120px;
+    }
+    
+    .table-data>table tbody>tr>th {
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    .table-data>table tr>td {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+
+/*========================================================================================*/
+/*                                    ~~Player Styles~~                                   */
+/*========================================================================================*/    
+    
+    
+/*========================================================================================*/
+/*                                      Profile Styles                                    */
+/*========================================================================================*/
+
+    .profDetail {
+        width: 400px;
+    }
+    
+    .profDetail>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .profDetail>p {
+        text-align: center;
+    }
+    
+    .profileWk {
+        margin-top: 0px;
+        padding: 10px;
+        width: auto;
+    }
+    
+    .profileWk h2 {
+        border-bottom: solid 3px #FFCD6B;
+        font-size: 36px;
+        margin-bottom: 18px;
+        padding: 8px;
+    }
+    
+    .profileWk ul {
+        list-style: none;
+        margin-bottom: 18px;
+    }
+    
+    .profileWk ul li {
+        display: block;
+    }
+
+
+/*========================================================================================*/
+/*                                    ~~Profile Styles~~                                  */
+/*========================================================================================*/
+
+
+/*========================================================================================*/
+/*                                       Footer Styles                                    */
+/*========================================================================================*/
+
+    #footer {
+    	background-color: #FFF;
+        clear: both;
+        padding: 40px 0px 30px;
+    	text-align: center;
+    	width: auto;
+    	} /* footer.php */
+    
+    #footer a {
+    	text-decoration: none;
+    	color: #eee;
+    	} /* footer.php */
+    
+    #footNav {
+        color: #333;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    #footNav ul li {
+        list-style: none;
+        display: block;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    #footNav a {
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+/*========================================================================================*/
+/*                                     ~~Footer Styles~~                                  */
+/*========================================================================================*/
+    
+}

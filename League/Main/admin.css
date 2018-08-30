@@ -1,0 +1,262 @@
+/* 
+admin.php Styles
+
+Site Colors
+
+Main Colors
+#061B47
+#103A92
+#3561BF
+#688CDA
+#BED0F7
+
+Accent color
+#6B4600
+#DB9101
+#FFB932
+#FFCD6B
+#FFE9BD
+
+*/
+    
+#adminForm {
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    width: 750px;
+}
+
+#adminHead {
+    background-color: #BED0F7;
+    color: #222;
+    font-family: 'Anaheim', sans-serif;
+    padding: 12px 0;
+    text-align: center;
+}
+
+#adminHead>h1 {
+    font-size: 48px;
+}
+
+.textBox {
+    margin: auto;
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+
+.textBox>h3 {
+    color: #333;
+    font-family: 'Anaheim', sans-serif;
+}
+
+.textBox>label,
+.textBox>input {
+    display: inline-block;
+    font-family: 'Anaheim', sans-serif;
+    margin: 5px 5px;
+}
+
+.textBox>label {
+    text-align: right;
+    width: 90px;
+}
+
+.textBox>label:nth-of-type(even) {
+    width: 40px;
+}
+
+.textBox>.final_team {
+    width: 110px;
+}
+
+.textBox>.final_score {
+    width: 60px;
+}
+
+.adminBtn {
+    background-color: #FFB932;
+    border-radius: 3px;
+    color: #333;
+    font-family: 'Anaheim', sans-serif;
+    font-weight: 300;
+    margin: 8px 0;
+    padding: 8px;
+}
+/*---------------------------------------------*/
+
+@media screen and (max-width: 1240px) {
+    
+    #adminForm {
+        background-color: #fff;
+        margin: auto;
+        padding: 10px;
+        width: 750px;
+    }
+    
+}
+
+/*==============================================================================================================================*/
+
+
+
+/*==============================================================================================================================*/
+
+.schAdd {
+    margin-bottom: 30px;
+}
+
+.schAdd>h1, .schAdd>h2 {
+    background-color: #BED0F7;
+    color: #222;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 72px;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.schAdd>h2 {
+    background-color: #fff;
+    font-size: 36px;
+}
+
+.schAdd>form {
+    margin: auto;
+    padding: 15px;
+    width: 650px;
+}
+
+.schAdd>form>label {
+    font-family: 'Anaheim', sans-serif;
+    margin: 0px 10px 10px;
+    text-align: right;
+    width: 90px;
+}
+
+.schAdd>form>input {
+    border: solid 1px rgb(232, 232, 232);
+    font-family: 'Anaheim', sans-serif;
+    outline: none;
+}
+
+.schAdd>form>label:nth-of-type(4),
+.schAdd>form>label:nth-of-type(7) {
+    width: 35px;
+}
+
+.schAdd>form>label:nth-of-type(5),
+.schAdd>form>label:nth-of-type(8) {
+    width: 55px;
+}
+
+.schAdd>form>#week,
+.schAdd>form>#game,
+.schAdd>form>#home_score,
+.schAdd>form>#away_score,
+.schAdd>form>#home_outcome, 
+.schAdd>form>#away_outcome,
+.schAdd>form>#year {
+    width: 60px;
+}
+
+.schAdd>form>#week,
+.schAdd>form>#game,
+.schAdd>form>#year,
+.schAdd>form>#sch_date {
+    display: inline-block;
+}
+
+.schAdd>form>#home,
+.schAdd>form>#away {
+    width: 100px;
+}
+
+.schAdd>form>button {
+    background-color: #FFB932;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Anaheim', sans-serif;
+    margin: 0 10px;
+    padding: 6px 18px;
+}
+
+@media only screen and (max-width: 756px) {
+    
+    #adminForm {
+        width: 100%;
+    }
+
+    #adminHead {
+        color: #222;
+        padding: 12px 0;
+        text-align: center;
+    }
+    
+    #adminHead>h1 {
+        font-size: 40px;
+    }
+    
+    #adminHead>h2 {
+        font-size: 24px;
+    }
+    
+    .textBox {
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .textBox>h3 {
+        color: #333;
+        font-size: 30px;
+    }
+    
+    .textBox>label,
+    .textBox>input {
+        display: block;
+        font-family: 'Anaheim', sans-serif;
+        margin: 5px 2px;
+    }
+    
+    .textBox>label {
+        text-align: left;
+        width: 90px;
+    }
+    
+    .textBox>label:nth-of-type(2),
+    .textBox>label:nth-of-type(4) {
+        width: 40px;
+    }
+    
+    .textBox>#final_home,
+    .textBox>#final_away {
+        width: 110px;
+    }
+    
+    .textBox>#final_home_score,
+    .textBox>#final_away_score {
+        width: 60px;
+    }
+    
+    .adminBtn {
+        border-radius: 3px;
+        font-weight: 300;
+        margin: 8px 0;
+        padding: 8px;
+    }
+    
+    .schAdd>form {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .schAdd>h1 {
+        font-size: 60px;
+    }
+    
+    .schAdd>form>label {
+        margin: 0 5px 5px;
+    }
+    
+}
