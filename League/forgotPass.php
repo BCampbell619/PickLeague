@@ -19,7 +19,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="usrNmFrm">
             <h3>Password Recovery</h3>
-            <p>Please enter the email used to create your account</p>
+            <p>Please enter the email used to create your account <br><small style="font-style: Italic;">Use Cancel to return to login</small></p>
             <form action="forgotPass.php" method="post">
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email">
